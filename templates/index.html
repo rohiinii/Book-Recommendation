@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Book Recommendation System</h1>
+    <form action="/recommend" method="POST">
+        <label for="user_id">Enter User ID:</label>
+        <input type="text" id="user_id" name="user_id" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+</body>
+</html>
